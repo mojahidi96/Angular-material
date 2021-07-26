@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/newAppliation",
+            "outputPath": "dist/Angular-material",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "newAppliation:build:production"
+              "browserTarget": "Angular-material:build:production"
             },
             "development": {
-              "browserTarget": "newAppliation:build:development"
+              "browserTarget": "Angular-material:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "newAppliation:build"
+            "browserTarget": "Angular-material:build"
           }
         },
         "test": {
